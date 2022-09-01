@@ -4,6 +4,7 @@ let input = document.getElementById('input');
 let output = document.getElementById('output');
 let inputValue = document.getElementById('input-value');
 let getValue = document.getElementById('get-value');
+let shuffle = document.getElementById('suffle');
 
 //Change option by select
 selectOption.addEventListener('change', ()=>{
@@ -51,8 +52,7 @@ selectOption.addEventListener('change', ()=>{
     }
 })
 
-//Change Direction
-//Code start here............
+
 
 // Calculation
 function calculas() {
