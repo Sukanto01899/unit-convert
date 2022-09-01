@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Select To Change</title>
+</head>
+<body>
+    <div class="convert-box">
+        <div class="option-box">
+            <select name="select" id="select-option">
+                <option value="Area">Area</option>
+                <option value="Length">Length</option>
+                <option value="Time">Time</option>
+                <option value="Energy">Energy</option>
+                <option value="Mass">Mass</option>
+            </select>
+        </div>
+        <div class="output-box">
+            <div id="from">
+                <input id="input-value" type="number">
+                <select name="" id="input">
+                    <option value="Square meter" >Square meter</option>
+                    <option value="Meter"disabled>Meter</option>
+                    <option value="Second" disabled>Second</option>
+                    <option value="Joule" disabled>Joule</option>
+                    <option value="Kilogram" disabled>Kilogram</option>
+                </select>
+            </div>
+            <div><span>=</span></div>
+            <div id="to">
+                <input id="get-value" type="number">
+                <select name="" id="output">
+                    <option value="Square Kilometer" >Square Kilometer</option>
+                    <option value="Centimeter" disabled>Centimeter</option>
+                    <option value="Minute" disabled>Minute</option>
+                    <option value="Kilocalorie" disabled>Kilocalorie</option>
+                    <option value="Gram" disabled>Gram</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

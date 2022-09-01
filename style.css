@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 40%;
+    margin: 10% auto;
+}
+.convert-box{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#select-option{
+    padding: 8px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.output-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+span{
+    font-size: 30px;
+}
+#from, #to{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#input, #output{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
